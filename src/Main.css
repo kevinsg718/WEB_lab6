@@ -1,0 +1,50 @@
+
+
+.Pagina {
+  text-align: center;
+}
+/*fonfo texto*/
+.Pagina-header {
+  background-color: #ddae04;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/*fondito*/
+.wrapper {
+    width: auto;
+    height: 280px;
+    margin:20px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #127507;
+    border-radius: 100px;
+    border: 50px solid;
+    border-color: #683b08;
+    /*background-image: url('./Fondo_mesa1.png');*/
+}
+
+/*Mesa*/
+.Mesa {
+    margin-bottom: 500px;
+    margin: 0 auto;
+    display: flex;
+    column-count:4; 
+    flex-direction: column;
+    align-content: center;
+
+    /*display: grid;*/
+    /*background-image:url('views/default/images/home.jpg');*/
+    border-color: #754604;
+    padding: 1px;
+
+    -webkit-column-count:2;
+            -moz-column-count:2;
+            column-count:2;
+}
